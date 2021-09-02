@@ -1,0 +1,90 @@
+.for_slick_slider{
+    display: flex;
+}
+.for_slick_slider .items{
+    width: 200px;
+    height: 200px;
+    margin:50px
+}
+.items img{
+    width: 190px;
+    height: 190px;
+}
+ .slick-center img{
+    transform: scale(1.2) !important;
+    
+}
+
+/* parallax satart */
+.parallax-window {
+	min-height: 650px;
+	background: transparent;
+}
+/* parallax end */
+
+/* video pop up */
+.video_popup{
+    min-height: 50vh;
+    background-image: url(../images/home-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video_contents{ 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 0 auto;
+    text-align: center;
+
+}
+.video-alignc{
+    height:80vh;;
+}
+.video_btn img{
+    width: 60px;
+
+}
+/* countdown */
+.counter-area{
+   background-color: #EAE2D8;
+    min-height: 80vh;
+}
+
+.counter-area h1{
+   
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.vide-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 0 auto;
+    text-align: center;
+
+}
+.all_content{
+    color: white;
+}
+.all_content button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.vide-content h1{
+    font-size: 150px;
+    text-transform: uppercase;
+}
+.video_content{
+    width: 100%;
+}
